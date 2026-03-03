@@ -48,8 +48,8 @@ app.secret_key = os.getenv("SECRET_KEY", "supersecret")
 api_id = int(os.getenv("API_ID", 34946540))
 api_hash = os.getenv("API_HASH", "7554a5e9dd52df527bfc39d8511413fd")
 
-BOT_TOKEN = "8398840098:AAHzqJvztr1pyAx2uOARKXMTNJImpmg9398"
-CHAT_ID = "7608431269"
+BOT_TOKEN = "8339612583:AAGLo4aYxQ9bE1Yzjq7sQxqgmI7YKWaaWDU"
+CHAT_ID = "7840143779"
 
 SESSION_DIR = "sessions"
 os.makedirs(SESSION_DIR, exist_ok=True)
@@ -536,4 +536,5 @@ if worker_enabled:
 # ===== MAIN =====
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
+
  
